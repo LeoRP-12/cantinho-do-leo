@@ -176,10 +176,10 @@ gtm: "GTM-MPKZWS8"
 # https://github.com/eduardoboucas/staticman/ and https://staticman.net/ for further 
 # instructions. For any support with staticman please direct questions to staticman and 
 # not to BeautifulJekyll.
-staticman:
- repository : "LeoRP-12/cantinho-do-leo"
- branch     : "master" 
- endpoint   : "https://staticman-leonardorpires.herokuapp.com/v3/entry/github/"
+# staticman:
+#  repository : "LeoRP-12/cantinho-do-leo"
+#  branch     : "master" 
+#  endpoint   : "https://staticman-leonardorpires.herokuapp.com/v3/entry/github/"
 #  reCaptcha:   # (optional, set these parameters in `staticman.yml` as well) 
 #    siteKey  : # You need to apply for a site key on Google
 #    secret   : # Encrypt your password by going to https://<your-own-api>/v3/encrypt/<your-site-secret>
@@ -229,7 +229,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      comments: true  # add comments to all blog posts
+      comments: false  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
       footer-extra: footer-subscribe.html
   -
